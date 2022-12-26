@@ -1,0 +1,9 @@
+//call
+GET /desserts/1 Host: apigateway.us-east-1.amazonaws.com 
+
+//response
+
+200 OK Content-Type: application/json ... {
+"id": "1",
+"type": “cake", "price": "$34.99"
+}
