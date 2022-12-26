@@ -7,3 +7,14 @@ GET /desserts/1 Host: apigateway.us-east-1.amazonaws.com
 "id": "1",
 "type": “cake", "price": "$34.99"
 }
+
+
+//call example
+POST http://demo-endpoint.execute-api.com/store/desserts HTTP/1.1 Content-Type: application/json Content-Length: ...
+{
+"type" : “fruit tart", "price" : 20.00
+}
+
+//response example
+
+HTTP 200 OK
